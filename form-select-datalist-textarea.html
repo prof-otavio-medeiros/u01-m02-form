@@ -45,10 +45,23 @@
                     </select>
                 </div>
                 <div class="item-block">
+                    <h3>&lt;input list&gt;</h3>
                     <h3>&lt;datalist&gt;</h3>
                     <label for="cars4">Choose a car:</label>
-                    <input list="cars4">
-                    <datalist id="cars4" name="cars4">
+                    <input id="cars4" name="cars4" list="cars4List">
+                    <datalist id="cars4List" name="cars4List">
+                        <option value="Audi"></option>
+                        <option value="Fiat"></option>
+                        <option value="Saab"></option>
+                        <option value="Volvo"></option>
+                    </datalist>
+                </div>
+                <div class="item-block">
+                    <h3>&lt;input list pattern&gt;</h3>
+                    <h3>&lt;datalist&gt;</h3>
+                    <label for="cars5">Choose a car:</label>
+                    <input id="cars5" name="cars5" list="cars5List" pattern="[Aa]udi|[Ff]iat|[Ss]aab|[Vv]olvo">
+                    <datalist id="cars5List" name="cars5List">
                         <option value="Audi"></option>
                         <option value="Fiat"></option>
                         <option value="Saab"></option>
