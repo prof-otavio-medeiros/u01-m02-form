@@ -79,7 +79,9 @@
                 <div class="item-block">
                     <h3>&lt;input type="email" required&gt;</h3>
                     <label for="email">Enter your email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required
+                        oninvalid="this.setCustomValidity('Informe um e-mail válido')"
+                        oninput="this.setCustomValidity('')">
                 </div>
                 <div class="item-block">
                     <h3>&lt;input type="file" multiple&gt;</h3>

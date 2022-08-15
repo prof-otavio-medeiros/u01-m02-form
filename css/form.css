@@ -1,3 +1,7 @@
+*:required {
+  border: 2px solid blue;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +20,7 @@
 }
 
 h3 {
-  font-family: Consolas,Menlo,"courier new",monospace;
+  font-family: Consolas, Menlo, "courier new", monospace;
   font-size: small;
   color: coral;
 }
@@ -26,7 +30,7 @@ fieldset {
 }
 
 legend {
-  font-family: Consolas,Menlo,"courier new",monospace;
+  font-family: Consolas, Menlo, "courier new", monospace;
   font-size: large;
   background-color: gray;
   color: white;
