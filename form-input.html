@@ -98,9 +98,24 @@
                     <input type="month" id="bdaymonth" name="bdaymonth">
                 </div>
                 <div class="item-block">
-                    <h3>&lt;input type="number" min max step&gt;</h3>
+                    <h3>&lt;input type="number" min max&gt;</h3>
                     <label for="quantity">Quantity (between 1 and 5):</label>
-                    <input type="number" id="quantity" name="quantity" min="1" max="5" step="0.2">
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                </div>
+                <div class="item-block">
+                    <h3>&lt;input type="number" min max step&gt;</h3>
+                    <label for="quantity-step">Quantity (between 1 and 5):</label>
+                    <input type="number" id="quantity-step" name="quantity-step" min="1" max="5" step="0.1">
+                </div>
+                <div class="item-block">
+                    <h3>&lt;input type="range" min max&gt;</h3>
+                    <label for="quantity-range">Quantity (between 1 and 5):</label>
+                    <input type="range" id="quantity-range" name="quantity-range" min="1" max="5">
+                </div>
+                <div class="item-block">
+                    <h3>&lt;input type="range" min max step&gt;</h3>
+                    <label for="quantity-range-step">Quantity (between 1 and 5):</label>
+                    <input type="range" id="quantity-range-step" name="quantity-range-step" min="1" max="5" step="any">
                 </div>
                 <div>
                     <h3>&lt;input type="reset"&gt; / &lt;input type="submit"&gt;</h3>
