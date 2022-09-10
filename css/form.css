@@ -19,6 +19,27 @@
   display: block;
 }
 
+a {
+  color: inherit;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 h3 {
   font-family: Consolas, Menlo, "courier new", monospace;
   font-size: small;
@@ -27,6 +48,7 @@ h3 {
 
 fieldset {
   background-color: #eeeeee;
+  margin-top: 0.5em;
 }
 
 legend {
@@ -35,4 +57,9 @@ legend {
   background-color: gray;
   color: white;
   padding: 5px 10px;
+}
+
+label,
+input {
+  margin-bottom: 0.5em;
 }
